@@ -1,0 +1,114 @@
+   body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#fff8e1,#ffe0b2,#fff3e0);
+}
+
+/* Título principal */
+h1{
+    text-align:center;
+    color:#bf360c;
+    font-size:45px;
+    text-shadow:3px 3px 5px #ffcc80;
+    background:#fff3e0;
+    padding:15px;
+    border-radius:20px;
+    border:4px solid #ff9800;
+}
+
+/* Subtítulos */
+h2{
+    color:#e65100;
+    border-left:8px solid #ff9800;
+    padding-left:10px;
+}
+
+/* Párrafos */
+p{
+    font-size:18px;
+    color:#4e342e;
+    text-align:justify;
+    line-height:1.8;
+}
+
+/* Contenedor de información */
+section{
+    background:white;
+    padding:20px;
+    margin:25px auto;
+    border-radius:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+    width:90%;
+}
+
+/* Imágenes */
+img{
+    width:300px;
+    height:220px;
+    border-radius:20px;
+    border:5px solid #ff9800;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+
+img:hover{
+    transform:scale(1.08) rotate(2deg);
+    box-shadow:0 0 20px #ff9800;
+}
+
+/* Botones o enlaces */
+a{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+a:hover{
+    background:#e65100;
+    transform:scale(1.05);
+}
+
+/* Tablas */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background:white;
+}
+
+th{
+    background:#e65100;
+    color:white;
+    padding:15px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#fff3e0;
+}
+
+tr:hover{
+    background:#ffe0b2;
+}
+
+/* Pie de página */
+footer{
+    text-align:center;
+    margin-top:40px;
+    padding:15px;
+    background:#bf360c;
+    color:white;
+    border-radius:15px;
+}

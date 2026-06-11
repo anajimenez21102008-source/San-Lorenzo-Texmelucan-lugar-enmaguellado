@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(135deg,#F8F1E4,#FFE6B3,#F4D6A0);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+/* Título */
+h1{
+    text-align:center;
+    color:white;
+    background:linear-gradient(to right,#8B4513,#C97B3A,#8B4513);
+    padding:20px;
+    border-radius:50px;
+    font-size:45px;
+    letter-spacing:3px;
+    text-shadow:2px 2px 5px black;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Párrafos */
+p{
+    background:rgba(255,255,255,0.8);
+    padding:15px;
+    border-left:8px solid #C97B3A;
+    border-radius:10px;
+    font-size:19px;
+    line-height:1.8;
+    color:#333;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Imágenes SIN cambiar su tamaño */
+img{
+    border-radius:18px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+img:hover{
+    transform:translateY(-8px);
+    box-shadow:0px 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Video */
+video{
+    border-radius:18px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Línea decorativa */
+hr{
+    border:none;
+    height:5px;
+    background:linear-gradient(to right,#8B4513,#FFD700,#8B4513);
+    border-radius:20px;
+}
+
+/* Texto final */
+footer{
+    margin-top:20px;
+    text-align:center;
+    background:#8B4513;
+    color:white;
+    padding:15px;
+    border-radius:15px;
+    font-size:18px;
+}
+body{
+    background: linear-gradient(-45deg,#F8F1E4,#FFE6B3,#F4D6A0,#FFF5CC);
+    background-size:400% 400%;
+    animation:fondo 10s ease infinite;
+}
+
+@keyframes fondo{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}

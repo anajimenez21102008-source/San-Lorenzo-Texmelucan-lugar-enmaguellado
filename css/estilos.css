@@ -1,0 +1,104 @@
+/* ====== FONDO ====== */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#4facfe,#00f2fe,#43e97b);
+    background-size:400% 400%;
+    animation:fondo 10s infinite alternate;
+}
+
+@keyframes fondo{
+    0%{background-position:left;}
+    100%{background-position:right;}
+}
+
+/* ====== TITULO ====== */
+
+h1{
+    text-align:center;
+    color:white;
+    font-size:55px;
+    margin-top:40px;
+    text-shadow:4px 4px 10px black;
+}
+
+/* ====== TEXTO ====== */
+
+p{
+    text-align:jus;
+    color:white;
+    font-size:22px;
+    width:80%;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+/* ====== CONTENEDOR ====== */
+
+.menu{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+/* ====== BOTONES AZULES ====== */
+
+.menu a{
+    text-decoration:none;
+    background:linear-gradient(45deg,#0066ff,#00c6ff);
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+    padding:30px;
+    text-align:center;
+    border-radius:25px;
+    box-shadow:0px 8px 20px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.menu a:hover{
+    transform:scale(1.08);
+    background:linear-gradient(45deg,#0048ff,#00e5ff);
+    box-shadow:0px 0px 25px cyan;
+}
+
+/* ====== IMAGEN ====== */
+
+img{
+    display:block;
+    margin:40px auto;
+    width:320px;
+    border-radius:30px;
+    box-shadow:0px 10px 25px rgba(0,0,0,0.4);
+}
+
+/* ====== PIE DE PAGINA ====== */
+
+footer{
+    text-align:center;
+    color:white;
+    font-size:18px;
+    margin-top:50px;
+    padding:20px;
+}
+
+/* ====== CELULARES ====== */
+
+@media(max-width:700px){
+
+.menu{
+grid-template-columns:1fr;
+}
+
+.menu a{
+font-size:22px;
+}
+
+h1{
+font-size:40px;
+}
+
+}
